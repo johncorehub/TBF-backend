@@ -36,6 +36,7 @@ include "db_conn.php";
 
         <a href="add_new.php" class="btn btn-dark mb-3">Add New</a>
 
+        <a href="logout.php"  class="btn btn-primary float-end">Log Out</a>
         
         <table class="table table-hover text-center">
   <thead class="table-dark">

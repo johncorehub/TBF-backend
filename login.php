@@ -1,6 +1,5 @@
 <?php
 include "db_conn.php";
-$GET= $_GET['index.php']
 
 ?>
 
@@ -8,13 +7,13 @@ $GET= $_GET['index.php']
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Design by foolishdeveloper.com -->
+
     <title>Login</title>
  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <!--Stylesheet-->
+ 
     <style media="screen">
       *,
 *:before,
@@ -27,7 +26,7 @@ body{
     background-color: #080710;
 }
 .background{
-    width: 430px;
+    width: 400px;
     height: 520px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -35,7 +34,7 @@ body{
     top: 50%;
 }
 .background .shape{
-    height: 200px;
+    height: 180px;
     width: 200px;
     position: absolute;
     border-radius: 50%;
@@ -164,3 +163,4 @@ button{
     </form>
 </body>
 </html>
+
